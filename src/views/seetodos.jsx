@@ -22,6 +22,7 @@ function TodoList() {
           <tr>
             <th>Title</th>
             <th>Description</th>
+            <th>Time</th>
           </tr>
         </thead>
         <tbody>
@@ -29,6 +30,7 @@ function TodoList() {
             <tr key={todo.title}>
               <td>{todo.title}</td>
               <td>{todo.desc}</td>
+              <td>{todo.time}</td>
             </tr>
           ))}
         </tbody>
